@@ -32,6 +32,9 @@
 /proinfo		emmc		/dev/block/platform/bootdevice/by-name/proinfo		flags=display="Proinfo"
 /bootloader		emmc		/dev/block/platform/bootdevice/by-name/lk		flags=display="Bootloader"
 /bootloader2		emmc		/dev/block/platform/bootdevice/by-name/lk2		flags=display="Bootloader2"
+/system_image     emmc     /dev/block/platform/bootdevice/by-name/system       flags=backup=1;display="System Image";flashimg=1
+
+/vendor_image     emmc     /dev/block/platform/bootdevice/by-name/vendor       flags=backup=1;display="Vendor Image";flashimg=1
 
 /expdb			emmc		/dev/block/platform/bootdevice/by-name/expdb		flags=display="Expdb"
 /seccfg			emmc		/dev/block/platform/bootdevice/by-name/seccfg		flags=display="Seccfg"
